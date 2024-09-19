@@ -1,0 +1,99 @@
+Atividade de Teste: Avaliação das Aplicações E-commerce e Saúde e Bem-Estar
+
+Aplicações:
+
+E-commerce
+Saúde e Bem-Estar
+
+Plano de Teste
+
+Instalação e Configuração
+Objetivo: Validar se a aplicação pode ser instalada e configurada corretamente.
+Procedimentos de Teste:
+  E-commerce: Baixar o instalador, seguir as instruções de configuração do servidor, conectar ao banco de dados.
+  Saúde e Bem-Estar: Instalar dependências, configurar APIs externas.
+Critérios de Aceitação: A instalação deve ser concluída sem erros.
+
+Interface do Usuário (UI)
+Objetivo: Avaliar a navegação e o design da interface de ambas as aplicações.
+Procedimentos de Teste:
+  E-commerce: Verificar se o design é intuitivo e as mensagens de sucesso/erro são claras.
+  Saúde e Bem-Estar: Conferir se o design é visualmente agradável e a navegação é simples.
+Critérios de Aceitação: Interface deve ser intuitiva, visualmente clara e funcional.
+
+Usabilidade
+Objetivo: Testar a facilidade de uso para usuários finais.
+Procedimentos de Teste:
+  E-commerce: Simular a compra de um produto com 5 usuários.
+  Saúde e Bem-Estar: Simular o registro de atividades físicas com 5 usuários.
+Critérios de Aceitação: Os usuários devem completar as tarefas sem assistência, com uma pontuação mínima de 8/10 em usabilidade.
+
+Funcionalidade Básica
+Objetivo: Verificar se as funções principais da aplicação estão operando corretamente.
+Procedimentos de Teste:
+  E-commerce: Testar pesquisa de produtos, adição ao carrinho e checkout.
+  Saúde e Bem-Estar: Testar registro de atividades e visualização de histórico.
+Critérios de Aceitação: Todas as funções devem operar como esperado.
+Desempenho
+Objetivo: Avaliar o tempo de resposta e a capacidade de suporte simultâneo de usuários.
+Procedimentos de Teste:
+  E-commerce: Realizar teste de carregamento com 100 usuários simultâneos.
+  Saúde e Bem-Estar: Realizar teste de carregamento com 80 usuários simultâneos.
+Critérios de Aceitação: O tempo de carregamento deve ser inferior a 2 segundos, e o sistema deve suportar o número de usuários simultâneos sem falhas.
+
+Segurança
+Objetivo: Garantir que a aplicação seja segura contra vulnerabilidades comuns.
+Procedimentos de Teste:
+  E-commerce: Testar proteção contra SQL Injection e XSS.
+  Saúde e Bem-Estar: Verificar a implementação de autenticação de dois fatores.
+Critérios de Aceitação: Nenhuma vulnerabilidade crítica deve ser encontrada.
+
+Compatibilidade
+Objetivo: Validar se a aplicação funciona em diferentes navegadores e dispositivos.
+Procedimentos de Teste:
+  E-commerce e Saúde e Bem-Estar: Testar em Chrome, Firefox, Safari, desktop, tablets e smartphones.
+Critérios de Aceitação: Todas as funções devem operar corretamente em todos os navegadores e dispositivos.
+
+Integrações
+Objetivo: Verificar a integração com sistemas externos.
+Procedimentos de Teste:
+  E-commerce: Testar a integração com PayPal e Stripe.
+  Saúde e Bem-Estar: Verificar a conexão com APIs de rastreamento de atividades.
+Critérios de Aceitação: Todas as integrações devem funcionar sem falhas.
+
+Fluxos de Trabalho
+Objetivo: Avaliar a execução de fluxos principais de trabalho.
+Procedimentos de Teste:
+  E-commerce: Testar todo o processo de compra, do carrinho ao checkout.
+  Saúde e Bem-Estar: Testar todo o processo de registro de atividades.
+Critérios de Aceitação: Todos os fluxos devem funcionar corretamente, sem interrupções.
+
+Cenários de Erro
+Objetivo: Verificar o comportamento da aplicação em cenários de erro.
+Procedimentos de Teste:
+  E-commerce: Simular compra sem itens no carrinho.
+  Saúde e Bem-Estar: Inserir dados inválidos ao registrar uma atividade.
+Critérios de Aceitação: As mensagens de erro devem ser claras e indicar corretamente o problema.
+
+Execução dos Testes
+
+Aplicação E-commerce:
+  Cenário: Compra de Produto
+  Pré-condições: Usuário registrado, produto disponível em estoque.
+  Procedimento: Simular a compra seguindo os passos definidos.
+  Resultados Esperados: Produto adicionado ao carrinho, total calculado corretamente, pedido confirmado com número de rastreamento.
+
+Aplicação Saúde e Bem-Estar:
+  Cenário: Registro de Atividade Física
+  Pré-condições: Usuário registrado.
+  Procedimento: Simular o registro de uma atividade física seguindo os passos definidos.
+  Resultados Esperados: Atividade registrada corretamente e exibida na lista de atividades.
+
+Testes Unitários
+E-commerce:
+  Função de Cálculo de Total: Testar com diferentes valores.
+  Validação de Estoque: Verificar se o produto está em estoque antes da compra.
+
+Saúde e Bem-Estar:
+  Registro de Atividade: Testar com diferentes tipos de atividades.
+  Relatório de Atividades: Garantir que todas as atividades registradas são listadas corretamente.
