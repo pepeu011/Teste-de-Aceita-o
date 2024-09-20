@@ -17,63 +17,55 @@ Critérios de Aceitação: A instalação deve ser concluída sem erros.
 Interface do Usuário (UI)
 Objetivo: Avaliar a navegação e o design da interface de ambas as aplicações.
 Procedimentos de Teste:
-  E-commerce: Verificar se o design é intuitivo e as mensagens de sucesso/erro são claras.
-  Saúde e Bem-Estar: Conferir se o design é visualmente agradável e a navegação é simples.
-Critérios de Aceitação: Interface deve ser intuitiva, visualmente clara e funcional.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Usabilidade
 Objetivo: Testar a facilidade de uso para usuários finais.
 Procedimentos de Teste:
-  E-commerce: Simular a compra de um produto com 5 usuários.
-  Saúde e Bem-Estar: Simular o registro de atividades físicas com 5 usuários.
-Critérios de Aceitação: Os usuários devem completar as tarefas sem assistência, com uma pontuação mínima de 8/10 em usabilidade.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Funcionalidade Básica
 Objetivo: Verificar se as funções principais da aplicação estão operando corretamente.
 Procedimentos de Teste:
-  E-commerce: Testar pesquisa de produtos, adição ao carrinho e checkout.
-  Saúde e Bem-Estar: Testar registro de atividades e visualização de histórico.
-Critérios de Aceitação: Todas as funções devem operar como esperado.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
+
 Desempenho
 Objetivo: Avaliar o tempo de resposta e a capacidade de suporte simultâneo de usuários.
 Procedimentos de Teste:
-  E-commerce: Realizar teste de carregamento com 100 usuários simultâneos.
-  Saúde e Bem-Estar: Realizar teste de carregamento com 80 usuários simultâneos.
-Critérios de Aceitação: O tempo de carregamento deve ser inferior a 2 segundos, e o sistema deve suportar o número de usuários simultâneos sem falhas.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Segurança
 Objetivo: Garantir que a aplicação seja segura contra vulnerabilidades comuns.
 Procedimentos de Teste:
-  E-commerce: Testar proteção contra SQL Injection e XSS.
-  Saúde e Bem-Estar: Verificar a implementação de autenticação de dois fatores.
-Critérios de Aceitação: Nenhuma vulnerabilidade crítica deve ser encontrada.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Compatibilidade
 Objetivo: Validar se a aplicação funciona em diferentes navegadores e dispositivos.
 Procedimentos de Teste:
-  E-commerce e Saúde e Bem-Estar: Testar em Chrome, Firefox, Safari, desktop, tablets e smartphones.
-Critérios de Aceitação: Todas as funções devem operar corretamente em todos os navegadores e dispositivos.
+  E-commerce e Saúde e Bem-Estar: Aprovado
 
 Integrações
 Objetivo: Verificar a integração com sistemas externos.
 Procedimentos de Teste:
-  E-commerce: Testar a integração com PayPal e Stripe.
-  Saúde e Bem-Estar: Verificar a conexão com APIs de rastreamento de atividades.
-Critérios de Aceitação: Todas as integrações devem funcionar sem falhas.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Fluxos de Trabalho
 Objetivo: Avaliar a execução de fluxos principais de trabalho.
 Procedimentos de Teste:
-  E-commerce: Testar todo o processo de compra, do carrinho ao checkout.
-  Saúde e Bem-Estar: Testar todo o processo de registro de atividades.
-Critérios de Aceitação: Todos os fluxos devem funcionar corretamente, sem interrupções.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Cenários de Erro
 Objetivo: Verificar o comportamento da aplicação em cenários de erro.
 Procedimentos de Teste:
-  E-commerce: Simular compra sem itens no carrinho.
-  Saúde e Bem-Estar: Inserir dados inválidos ao registrar uma atividade.
-Critérios de Aceitação: As mensagens de erro devem ser claras e indicar corretamente o problema.
+  E-commerce: Aprovado
+  Saúde e Bem-Estar: Aprovado
 
 Execução dos Testes
 
